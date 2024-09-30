@@ -20,7 +20,7 @@ function App() {
                 alert(response.data.message);  // Show success message
 
                 const apiUrl = "https://www.fast2sms.com/dev/bulkV2";
-                const apiKey = "NOYQosOf7q45XdUTiipvLqMVCyiq7k1HnW1Rkb3BglP0ePOaJxp16zwOkQKb";
+                const apiKey = "Enter your own api key here from fast2sms";
     
                 // Rename the message for the SMS to avoid conflict
                 const smsMessage = `Hello! ${name}\n${message}`;
